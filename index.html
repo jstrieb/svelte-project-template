@@ -1,0 +1,46 @@
+<!--
+  Created by Jacob Strieb.
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+
+    <!--
+    <meta
+      property="og:image"
+      content="https://example.com/absoluteurl/opengraph.png"
+    />
+    <meta property="og:image:alt" content="Open Graph Image" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    -->
+
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="512x512"
+      href="/favicon-512.png"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="128x128" href="/favicon-128.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/favicon-512.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <link rel="manifest" href="/manifest.json" />
+  </head>
+  <body></body>
+  <script type="module">
+    import { mount } from "svelte";
+
+    import "./src/global.css";
+    import App from "./src/App.svelte";
+
+    const app = mount(App, {
+      target: document.body,
+      props: {},
+    });
+  </script>
+</html>

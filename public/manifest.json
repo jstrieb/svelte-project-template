@@ -1,0 +1,44 @@
+{
+  "name": "Project",
+  "short_name": "Project",
+  "description": "Description",
+  "categories": [],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "favicon-32.png",
+      "type": "image/png",
+      "purpose": "any",
+      "sizes": "32x32"
+    },
+    {
+      "src": "favicon-128.png",
+      "type": "image/png",
+      "purpose": "any",
+      "sizes": "128x128"
+    },
+    {
+      "src": "favicon-512.png",
+      "type": "image/png",
+      "purpose": "any",
+      "sizes": "512x512"
+    },
+    {
+      "src": "favicon.svg",
+      "type": "image/svg+xml",
+      "purpose": "any",
+      "sizes": "any"
+    }
+  ],
+  "file_handlers": [],
+  "launch_handler": {
+    "client_mode": ["navigate-new", "auto"]
+  },
+  "orientation": "any",
+  "protocol_handlers": [],
+  "related_applications": [],
+  "scope": "./",
+  "start_url": "./"
+}

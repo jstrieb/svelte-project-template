@@ -1,0 +1,53 @@
+:root {
+  --fg-color: black;
+  --bg-color: white;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-variant-ligatures: none;
+  color: inherit;
+  background: inherit;
+  border-color: inherit;
+  border-radius: 0;
+  line-height: inherit;
+  touch-action: manipulation;
+  appearance: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+html,
+body {
+  font-family: sans-serif;
+  color: var(--fg-color);
+  accent-color: var(--fg-color);
+  caret-color: var(--fg-color);
+  background: var(--bg-color);
+}
+
+body {
+  padding: 0.5em;
+  /* Fall back on vh units if dvh doesn't work (i.e., not on mobile). */
+  height: 100vh;
+  min-height: 100vh;
+  max-height: 100vh;
+  height: 100dvh;
+  min-height: 100dvh;
+  max-height: 100dvh;
+}
+
+button {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+ul {
+  margin-left: 1em;
+}
